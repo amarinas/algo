@@ -1,4 +1,6 @@
 def setting_swapping():
+    # swapping value
+    # change myName value with myNumber  and vice versa
     myNumber = 42
     myName = 'Ali'
     print "my number before ", myNumber
