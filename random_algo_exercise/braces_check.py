@@ -26,7 +26,7 @@ def braket(arr):
     else:
         # print "22222222"
         # print newarr
-        return False # braces are not valid cause the newarr is not empty
+        return False # braces are n                                    ot valid cause the newarr is not empty
 
 
 
