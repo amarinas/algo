@@ -20,7 +20,7 @@
 # // console.log(hill([5,4,3,2,8, 9]))
 
 def hill(v):
-    duplicate = sorted(v[::])
+    duplicate = sorted(v)
     max = 0
 
     for i in range(len(v)):
