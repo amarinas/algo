@@ -1,14 +1,23 @@
+
+
+# A class constructor that takes an array of integers as a parameter and saves it to the elements instance variable.
+# A computeDifference method that finds the maximum absolute difference between any 2 numbers in  N and stores it in the maximumDifference instance variable.
+
 class Difference:
     def __init__(self, a):
-        sel.elements = a
+        self.__elements = a
 
     def computeDifference(self):
-        max = 0
-        for i in range(len(self._elements)):
-            absolute = abs(self._elements[i] - self.elements[j])
-            if absolute > max:
-                max = absolute
-        self.maximumDifference = max
+        maximum = 0
+
+        for i in range(len(self.__elements)):
+            for j in range(len(self.__elements)):
+                absolute = abs(self.__elements[i] - self.__elements[j])
+                if absolute > maximum:
+                    maximum = absolute
+
+        self.maximumDifference = maximum    def __init__(self, a):
+
 
 
 
