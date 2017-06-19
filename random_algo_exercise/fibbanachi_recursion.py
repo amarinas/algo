@@ -17,4 +17,4 @@ def fib(n):
 
 
 
-print(fib(3))
+print(fib(2))

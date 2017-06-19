@@ -10,6 +10,6 @@ function RemoveDuplicates(arr){
     arr.length = slow + 1;
 }
 
-arr = [4,4,3,3,2,2,1,1];
+arr = [4,4,3,3,2,2,1,1,8];
 RemoveDuplicates(arr);
 console.log(arr);
