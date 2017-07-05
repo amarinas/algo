@@ -17,9 +17,6 @@ public class if_else {
         else{
            ans = "Not Weird";
 
-
-           //Complete the code
-
         }
         System.out.println(ans);
 
