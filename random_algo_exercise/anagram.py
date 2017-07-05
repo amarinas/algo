@@ -62,27 +62,27 @@
 # for pair in zip(firstWords, secondWords):
 # 	print check_anagrams(*pair)
 
-def check_anagrams(s1, s2):
-	list1 = list(s1)
-	list2 = list(s2)
-
-	list1.sort()
-	list2.sort()
-
-	runner = 0
-	match = 1
-
-	while runner < len(s1) and match:
-		if list1[runner] ==list2[runner]:
-			runner += 1
-		else:
-			match = 0
-	return match
-
-s1 =["iceman","host", "aba", "train"]
-s2 = ["cinema", "shot", "bab", "rain"]
-
-
-# print(check_anagrams(["iceman","host", "aba", "train"], ["cinema", "shot", "bab", "rain"]))
-for pair in zip(s1,s2):
-	print check_anagrams(*pair)
+# def check_anagrams(s1, s2):
+# 	list1 = list(s1)
+# 	list2 = list(s2)
+#
+# 	list1.sort()
+# 	list2.sort()
+#
+# 	runner = 0
+# 	match = 1
+#
+# 	while runner < len(s1) and match:
+# 		if list1[runner] ==list2[runner]:
+# 			runner += 1
+# 		else:
+# 			match = 0
+# 	return match
+#
+# s1 =["iceman","host", "aba", "train"]
+# s2 = ["cinema", "shot", "bab", "rain"]
+#
+#
+# # print(check_anagrams(["iceman","host", "aba", "train"], ["cinema", "shot", "bab", "rain"]))
+# for pair in zip(s1,s2):
+# 	print check_anagrams(*pair)
