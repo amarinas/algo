@@ -30,6 +30,6 @@ def braket(arr):
 
 
 
-print(braket(["[", "(", "{", "}", "]", ")"]))
+print(braket(["[]{}}{{}}]"]))
 print(braket(["[", "(", "{", "}", ")", "]"]))
 print(braket([ "[", "]" ]))
