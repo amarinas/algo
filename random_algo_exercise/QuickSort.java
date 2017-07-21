@@ -41,8 +41,8 @@ public class QuickSort{
 }
 
 
-// public static void main (String[] args){
-//   Quicksort sort = new Quicksort();
-//   sort.quicksort([44,33,4,2,8,23,55,99])
-//
-// }
+public static void main(String[] args)
+{
+    quicksort(new int [] {44,33,4,2,8,23,55,99})
+
+}
