@@ -2,14 +2,14 @@
 # given and arr and x, x as last x element and return arr
 def only_keep(arr, x):
     if len(arr) > x:
-        for i in range(len(arr)):
-            print "this", arr[x -i], arr
-            arr[i] = arr[ -x + i]
-            print arr[i]
-            # arr[i] = arr[len(arr[x-i])]
-        # arr[len(arr)] = x
+        for i in range len(arr):
+            arr[i] = arr[len(arr) - x + i]
+            print i
+
         return arr
     else:
-        return "array is empty"
+        return 0
 
-only_keep([2,4,6,8,10], 3)
+print(only_keep([2,4,6,8,10], 3))
+
+print(only_keep([], 3))

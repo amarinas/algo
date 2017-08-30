@@ -11,4 +11,4 @@ def final_count(param1,param2,param3,param4):
 
         count = count - 1
 
-print(final_count(3,5,17,9))
+final_count(3,5,17,9)

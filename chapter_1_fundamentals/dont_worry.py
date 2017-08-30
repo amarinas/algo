@@ -3,4 +3,4 @@ def beCheerful():
     for i in range(0,98):
         print "good morning!"
 
-print(beCheerful())
+beCheerful()

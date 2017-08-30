@@ -12,3 +12,4 @@ def count_posivites(arr):
     return arr
 
 print(count_posivites([-1,2,2,2]))
+print(count_posivites([-1,2,2,6,8,3]))
