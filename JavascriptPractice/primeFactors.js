@@ -18,4 +18,4 @@ function primeFactors(x){
 }
 
 console.log(primeFactors(69));
-console.log(primeFactors(120));
+console.log(primeFactors(237));
