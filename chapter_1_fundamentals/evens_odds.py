@@ -18,6 +18,7 @@ def evens_odd(arr):
             if odd == 3:
                 odd= 0
                 print "thats odd!"
+    
 
 evens_odd([1,1,1,4,3,4])
-evens_odd([2,2,2,4,3,4])
+evens_odd([2,2,4,3,4,2])

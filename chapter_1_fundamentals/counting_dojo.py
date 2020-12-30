@@ -3,9 +3,12 @@ def count_dojo():
     for i in range(0,101):
         if i % 5 == 0:
             print "Coding"
-            if i % 10 == 0:
+
+            if i % 5 == 0 and i % 10 == 0:
                 print "dojo"
+
         else:
             print i
+
 
 count_dojo()
