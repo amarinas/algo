@@ -1,11 +1,13 @@
 def palindrome(num):
-    rev = num[::-1]
-    if rev == num:
-        print ("palindrome")
-    else:
-        print("not palindrome")
+    cnum = num
+    rev = 0
+    if num < 0:
+        return False
+        
+    while cnum:
+        rev = rev * 10 + cnum %10
+        cnum /= 10
+    return rev == num
 
-
-def __main__(self):
-
-    print(palindrome("madam"))
+print(palindrome(11211))
+print(palindrome(-15251))
